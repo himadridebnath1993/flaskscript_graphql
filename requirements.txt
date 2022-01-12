@@ -1,0 +1,15 @@
+###### Requirements without Version Specifiers ######
+flask
+werkzeug
+asyncio
+ariadne
+flask-sqlalchemy
+flask-cors
+flask-cli
+aiohttp
+openpyxl
+pandas
+
+###### Requirements with Version Specifiers ######
+#gql[all]==2.0.0
+gql[all]==3.0.0b0
