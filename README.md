@@ -1,13 +1,16 @@
-# flask_script
+# FLASK with GraphQL 
 
-<br>python3 -m venv .
-<br>source bin/activate
-
-<br>pip3 install -r requirements.txt
+Once download code have to add URL and key on **app/service/graphOL.py file**
 
 
-Run " ./build.sh "
+Now you have to install all the plugins using ./install.sh command
+Run the application using  ./run.sh command
 
-<br>export FLASK_APP=app.py
-<br>export FLASK_ENV=development
-<br>flask run
+**Output:** 
+ * Serving Flask app "app"
+ * Forcing debug mode on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 867-037-447
+
