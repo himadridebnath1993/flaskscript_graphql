@@ -1,7 +1,8 @@
 # FLASK with GraphQL 
 
-Once download code have to add URL and key on **app/service/graphQL.py file**
+Once download code have to add URL and key on **app/service/graph_ql.py file**
 
+  `transport = AIOHTTPTransport(url="GRAPH_QL_URL", headers={'Content-Type': 'application/json', 'x-hasura-admin-secret': "SECRET_KEY"})`
 
 Now you have to install all the plugins using **./install.sh** command
 <br>Run the application using  **./run.sh** command
