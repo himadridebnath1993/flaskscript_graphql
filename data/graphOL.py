@@ -22,9 +22,9 @@ async def download_all_file():
 
 
 async def gql_query(_gql_query: GqlQuery) -> json:
-    transport = AIOHTTPTransport(url="http://test.admin.cogostech.com:8000/v1/graphql",
+    transport = AIOHTTPTransport(url="GRAPHQL_URL",
                                  headers={'Content-Type': 'application/json',
-                                          'x-hasura-admin-secret': "cogos-66A5B6A85884AB6AA1EC199D24538"})
+                                          'x-hasura-admin-secret': "SECRET_KEY"})
 
     # Using `async with` on the client will start a connection on the transport
     # and provide a `session` variable to execute queries on this connection
