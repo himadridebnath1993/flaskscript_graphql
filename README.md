@@ -1,6 +1,6 @@
 # FLASK with GraphQL 
 
-Once download code have to add URL and key on **app/service/graphOL.py file**
+Once download code have to add URL and key on **app/service/graphQL.py file**
 
 
 Now you have to install all the plugins using **./install.sh** command
