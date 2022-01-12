@@ -3,8 +3,8 @@
 Once download code have to add URL and key on **app/service/graphOL.py file**
 
 
-Now you have to install all the plugins using ./install.sh command
-Run the application using  ./run.sh command
+Now you have to install all the plugins using **./install.sh** command
+<br>Run the application using  **./run.sh** command
 
 **Output:** 
  * Serving Flask app "app"
