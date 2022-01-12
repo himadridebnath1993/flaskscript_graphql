@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Say Hello</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+   </head>
+   <body>
+      <Form name='query' action="query" method="post">
+          <button type="submit" value="GREET" id="greet">Make Query</button>
+        <table name='invoice' width=100%>
+            <tr>
+                <th>Query</td>
+                <th>Veriable</td>
+                <th>Result</td>
+             </tr>
+            <tr>
+                <td><textarea placeholder="Query 1" name="Query1" cols="15" rows="20" ></textarea></td>
+                <td><textarea placeholder="Veriable 1" name="Veriable 1" cols="10" rows="20" ></textarea></td>
+                <td><textarea disabled placeholder="Result 1" name="result1" cols="15" rows="20" ></textarea></td>
+            </tr>
+            <tr>
+                <th><textarea name="Query2" cols="15" rows="20" ></textarea></th>
+                <th><textarea  name="Veriable2" cols="10" rows="20" ></textarea></th>
+                <th><textarea disabled name="result1" cols="15" rows="20" ></textarea></th>
+            </tr>
+        </table>
+
+      </Form>
+   </body>
+</html>
